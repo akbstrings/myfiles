@@ -9,7 +9,7 @@
 </html>
 <?php 
 session_start();
-echo "hai arun";
+echo "hai";
 echo "<h1> WELCOME  ".$_SESSION['userlogin']['data']."</h1>";
 echo $_SESSION['userlogin']['calssno'];
 ?>
